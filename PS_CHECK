@@ -1,1 +1,1 @@
-ps -U jboss -ef | grep "Host Controller"| grep "Dlogging.configuration=file:/data/jboss-eap-6.4/master"| awk '{print $2}'
+ps -U jboss -ef | grep "Host Controller"| grep "Dlogging.configuration=file:/data/EAP-7.1.0/master"| awk '{print $2}'
